@@ -1,7 +1,21 @@
 // 按需全局引入 vant组件
 import Vue from 'vue'
-import { Button, List, Cell, Tabbar, TabbarItem } from 'vant'
+import { Button, List, Cell, Tabbar, TabbarItem ,Switch ,Overlay,Icon,Field,Sidebar, SidebarItem ,NoticeBar ,Empty, Collapse, CollapseItem,SwipeCell ,Tab, Tabs ,Sticky   } from 'vant'
 Vue.use(Button)
+Vue.use(Switch)
 Vue.use(Cell)
 Vue.use(List)
+Vue.use(Overlay)
+Vue.use(Icon)
+Vue.use(Field)
+Vue.use(Sidebar)
+Vue.use(SidebarItem)
+Vue.use(NoticeBar)
+Vue.use(Empty)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(SwipeCell)
+Vue.use(Tab)
+Vue.use(Tabs)
+Vue.use(Sticky)
 Vue.use(Tabbar).use(TabbarItem)
